@@ -11,10 +11,10 @@ Pod::Spec.new do |s|
   s.authors      = package["author"]
 
   s.platforms    = { :ios => "10.0" }
-  s.source       = { :git => "https://github.com/qiuxiang/react-native-amap3d.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/heyo-global/react-native-amap3d.git", :tag => "#{s.version}" }
 
   s.source_files = "**/*.{h,m,mm,swift}"
 
   s.dependency "React-Core"
-  s.dependency 'AMap3DMap', "~> 9.6.0"
+  s.dependency 'AMap3DMap', "~> 10.1.200"
 end
